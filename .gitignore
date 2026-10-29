@@ -1,0 +1,30 @@
+# .NET build output (dotnet project convert 또는 IDE 빌드 시 생성)
+bin/
+obj/
+artifacts/
+*.csproj.user
+*.binlog
+
+# IDE
+.vs/
+.idea/
+*.suo
+*.user
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# 로그와 쿼리 실행 결과
+*.log
+*.out
+
+# 로컬 비밀 정보 (토큰, 연결 문자열, 환경 변수)
+.env
+.env.*
+*.dpapi
+appsettings.*.local.json
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
